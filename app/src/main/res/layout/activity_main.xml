@@ -59,6 +59,7 @@
         android:text="Uma frase para você aqui!"
         android:textColor="#000000"
         android:textSize="16sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
