@@ -21,13 +21,30 @@ public class MainActivity extends AppCompatActivity {
         String[] frasesParaGerar = { // phrases array
                 "Eu te amo muito, não se esqueça disso <3",
                 "Você é maravilhosa <3",
-                "Confie no seu potencial!",
+                "Confie no seu potêncial!",
                 "Minha Princesa <3",
-                "Não importa se o munda acha clichê, Um dia vamos casar!",
+                "Não importa se o mundo acha clichê, Um dia vamos casar!",
+                "Quero ter vários gatinhos, patinhos, cachorrinhos " +
+                        "e uma cacheada para cuidarmos!",
+                "Você é uma mulher maravilhosa!",
+                "MUUITO GATA MEU DEUS DO CÉU",
+                "Repetiria tudo de novo -> 10/01/21 <3",
+                "Tenha um ótimo dia!",
+                "Os meus melhores dias, tem você nele!",
+                "MULHERÃO DA PO**AA!!!",
+                "Vem sempre aqui???? kkkkkkk",
+                "Lembra do 'hoje ta frio né?'",
+                "Tenho um orgulho de você!",
+                "Sou ciumento, não é todo dia que " +
+                        "encontro uma mulher tão maravilhosa assim!",
+                "愛してます <3",
+                "Vocé é única, linda e prefeita!",
+                "AMO APERTAR TEU BUXINHOOOOOO <3",
+                "SEU CORPO É DIVINO E PERFEITO GAROTA!"
         };
 
-        int number = new Random().nextInt(4); // create a random number
+        int number = new Random().nextInt(20); // create a random number
         TextView text = findViewById(R.id.textoResult); // find de textView
-        text.setText(frasesParaGerar[number]); // set the text acording array
+        text.setText(frasesParaGerar[number]); // set the text according array
     }
 }
