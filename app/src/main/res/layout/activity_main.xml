@@ -12,57 +12,46 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
         android:text="Feito com amor por Ailtuu"
         android:textColor="#D82B2A2A"
         android:textSize="20sp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="700dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="189dp"
         android:layout_height="44dp"
-        android:layout_marginBottom="133dp"
         android:onClick="gerarNovaFrase"
         android:text="PRESSIONE AQUI!"
         android:textColor="#000000"
         app:backgroundTint="@android:color/holo_orange_light"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textoResult" />
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="523dp" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="252dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="53dp"
-        app:layout_constraintBottom_toTopOf="@+id/textoResult"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/eu_e_mary_cutted" />
+        android:layout_height="308dp"
+        app:srcCompat="@drawable/eu_e_mary_cutted"
+        tools:layout_editor_absoluteX="80dp" />
 
     <TextView
         android:id="@+id/textoResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="115dp"
-        android:layout_marginLeft="115dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:layout_marginBottom="140dp"
         android:text="Uma frase para você aqui!"
         android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
