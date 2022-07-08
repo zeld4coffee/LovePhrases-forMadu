@@ -38,11 +38,10 @@ public class MainActivity extends AppCompatActivity {
                 "Sou ciumento, não é todo dia que " +
                         "encontro uma mulher tão maravilhosa assim!",
                 "愛してます <3",
-                "Vocé é única, linda e prefeita!",
+                "Vocé é única, linda e perfeita!",
                 "AMO APERTAR TEU BUXINHOOOOOO <3",
                 "SEU CORPO É DIVINO E PERFEITO GAROTA!"
         };
-
         int number = new Random().nextInt(20); // create a random number
         TextView text = findViewById(R.id.textoResult); // find de textView
         text.setText(frasesParaGerar[number]); // set the text according array
